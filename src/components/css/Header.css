@@ -1,0 +1,42 @@
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .Header__logo {
+    font-size: 24px;   
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header__nav ul {
+    width: 299px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0F0A0A;
+    opacity: 0.5;
+    transition: .3s;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+.Header__cv {
+    height: 49px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #42E2B8;
+    border: 2px solid #0F0A0A;
+    border-radius: 90px;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+}
