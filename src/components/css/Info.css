@@ -1,0 +1,88 @@
+.bodyPage {
+    grid-column: 2 / 10;
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.bodyPage__first {
+    grid-column: 3 / 9;
+    justify-self: center;
+    text-align: center;
+}
+
+.bodyPage__first h4 {
+    margin-bottom: 0;
+    font-size: 2.125rem;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+.bodyPage__first h5 {
+    margin-top: 1.5em;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.bodyPage__first figure {
+    margin: 0 auto;
+    max-width: 50px;
+}
+
+.bodyPage__first figure img {
+    width: 100%;
+}
+
+.bodyPage__second {
+    padding: 1em;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyPage__second--info h4 {
+    padding: 4px;
+    width: fit-content;
+    background-color: #0F0A0A;
+    color: #42E2B8;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.bodyPage__second--info p {
+    max-width: 450px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.enlaces a {
+    margin-left: 1rem;
+    padding: 13px 24px;
+    display: inline-block;
+    color: #0F0A0A;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #0F0A0A;
+    border-radius: 90px;
+}
+
+.github {
+    width: 2px;
+    height: 2px;
+    background-image: url('../../assets/images/github.svg');
+}
+
+.bodyPage__second--img{
+    margin: 0;
+    max-width: 652px;
+}
+
+.bodyPage__second--img img {
+    width: 100%;
+}

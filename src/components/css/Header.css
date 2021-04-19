@@ -1,7 +1,9 @@
 .Header {
-    width: 100%;
+    /* width: 100%; */
+    height: auto;
+    grid-column: 1 / -1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -32,6 +34,7 @@ li:hover {
 }
 
 .Header__cv {
+    padding: 13px 24px;
     height: 49px;
     font-size: 14px;
     text-transform: uppercase;

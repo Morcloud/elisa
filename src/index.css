@@ -1,9 +1,6 @@
 body {
   margin: 0;
-  padding: 0 117px;
+  /* padding: 0 117px;  */
   font-family: 'Oxygen', sans-serif;
-}
-
-code {
-  
+  /* background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%); */
 }

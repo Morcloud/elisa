@@ -1,0 +1,6 @@
+.App {
+    margin: 0;
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+    display: grid;
+    grid-template: 100px repeat(9, 1fr) / repeat(10, 1fr);
+}
